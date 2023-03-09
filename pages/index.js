@@ -57,13 +57,22 @@ export default function Home() {
             As a student passionate about <span className="text-teal-500"> software engineering, </span> I am constantly intrigued by the innovative <span className="text-teal-500"> technology </span> that powers the world around us. I am fascinated by the intricate details that go into creating <span className="text-teal-500"> software applications </span> that make our lives easier and more efficient. I am dedicated to honing my <span className="text-teal-500"> programming skills </span> and staying up-to-date with the latest developments in the field. I find joy in <span className="text-teal-500"> problem-solving,</span> and I am eager to apply my knowledge to create innovative solutions. <span className="text-teal-500"> My goal </span> is to be a part of a dynamic team that develops groundbreaking software products and changes the world for the better.
             </p>
           </div>
+          <div>
+            <h3 className="text-3xl py-1 dark:text-white">Contact Information</h3>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+              Phone # : 
+              <span className="text-teal-500"> 786-816-1124 </span>
+              <br></br>Personal Email: <span className="text-teal-500"> richeloliver@gmail.com </span>
+              <br></br>Discord: <span className="text-teal-500"> Nedril. #8982 </span>
+            </p>
+          </div>
 
         </section>
         
         <section>
 
-          <div className="lg:flex gap-10 dark:text-white">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:text-white">
+          <div className="justify-center flex flex-col gap-10 lg:flex-row lg:flex-wrap dark:text-white">
+            <div className="justify-center text-center shadow-lg p-10 rounded-xl my-10 basis-1/2 dark:text-white">
               <Image src={languages} width={100} height={100}/>
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
                 Programming Languages
@@ -78,7 +87,7 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-white">JavaScrip</p>
               <p className="text-gray-800 py-1 dark:text-white">VHDL</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="justify-center text-center shadow-lg p-10 rounded-xl basis-1/2 my-10">
               <Image src={software} width={100} height={100}/>
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Software
@@ -93,7 +102,7 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-white">Xilinx Vivado</p>
               <p className="text-gray-800 py-1 dark:text-white">IntelliJ IDEA</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:text-white">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/2 dark:text-white">
               <Image src={hardware} width={100} height={100}/>
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Hardware
@@ -107,15 +116,7 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-white">Beagle Bone</p>
             </div>
           </div>
-          <div>
-            <h3 className="text-3xl py-1 dark:text-white">Contact Information</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Phone # : 
-              <span className="text-teal-500"> 786-816-1124 </span>
-              <br></br>Personal Email: <span className="text-teal-500"> richeloliver@gmail.com </span>
-              <br></br>Discord: <span className="text-teal-500"> Nedril. #8982 </span>
-            </p>
-          </div>
+
         </section>
       </main>
     </div>
