@@ -29,7 +29,7 @@ export default function Home() {
                 <BsFillMoonStarsFill  onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl"/>
               </li>
               <li>
-                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 bg-cyan-500 text-white px-4 py-2 rounded-md ml-8" href='/Resume_New.pdf'>Resume</a>
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 bg-cyan-500 text-white px-4 py-2 rounded-md ml-8" href="/Resume_New.pdf"target="_blank">Resume</a>
               </li>
             </ul>
           </nav>
@@ -41,9 +41,9 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
-            <a href="https://www.instagram.com/richyned_/"><AiFillInstagram /></a>
-            <a href="https://www.linkedin.com/in/richel-oliver-1367981b2/"><AiFillLinkedin /></a>
-            <a href="https://github.com/Richel7"><AiFillGithub /></a>
+            <a href="https://www.instagram.com/richyned_/"target="_blank"><AiFillInstagram /></a>
+            <a href="https://www.linkedin.com/in/richeloliver/"target="_blank"><AiFillLinkedin /></a>
+            <a href="https://github.com/Richel7"target="_blank"><AiFillGithub /></a>
             
 
           </div>
@@ -61,11 +61,17 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Contact Information</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Phone # : 
-              <span className="text-teal-500"> 786-816-1124 </span>
-              <br></br>Personal Email: <span className="text-teal-500"> richeloliver@gmail.com </span>
+              Personal Email:  
+              <span className="text-teal-500"> richeloliver@gmail.com</span>
               <br></br>Discord: <span className="text-teal-500"> Nedril. #8982 </span>
             </p>
+          </div>
+
+          <div>
+            <h3 className="text-3xl py-1 dark:text-white">Projects</h3>
+            <a href="https://jumpin-it.vercel.app/"target="_blank"className="text-md py-2 leading-8 text-gray-800 dark:text-white">
+              INIT Build Gaming Hub
+            </a>
           </div>
 
         </section>
@@ -85,7 +91,7 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-white">C/C++</p>
               <p className="text-gray-800 py-1 dark:text-white">Java</p>
               <p className="text-gray-800 py-1 dark:text-white">HTML/CSS</p>
-              <p className="text-gray-800 py-1 dark:text-white">JavaScrip</p>
+              <p className="text-gray-800 py-1 dark:text-white">JavaScript</p>
               <p className="text-gray-800 py-1 dark:text-white">VHDL</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl basis-1/2 my-10">
